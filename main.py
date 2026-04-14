@@ -6,7 +6,7 @@
 # Date:11/02/26
 
 #print("--- Extracting Words from Text File ---\n")
-num = int(input("enter word length: "))
+num = int(input(""))
 words =[]
 with open("story.txt", "r") as file:
     content = file.read().split()
@@ -16,4 +16,4 @@ with open("story.txt", "r") as file:
 words=set(words)
 words=list(words)
 words.sort()
-print(words)    
+print(words)
